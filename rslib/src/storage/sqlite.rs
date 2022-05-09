@@ -32,7 +32,7 @@ fn unicase_compare(s1: &str, s2: &str) -> Ordering {
 #[derive(Debug)]
 pub struct SqliteStorage {
     // currently crate-visible for dbproxy
-    pub(crate) db: Connection,
+    pub db: Connection,
 }
 
 fn open_or_create_collection_db(path: &Path) -> Result<Connection> {
