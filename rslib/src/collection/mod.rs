@@ -128,7 +128,7 @@ pub struct Collection {
     pub(crate) col_path: PathBuf,
     pub(crate) media_folder: PathBuf,
     pub(crate) media_db: PathBuf,
-    pub(crate) tr: I18n,
+    pub tr: I18n,
     pub(crate) log: Logger,
     pub(crate) server: bool,
     pub(crate) state: CollectionState,
