@@ -271,7 +271,7 @@ impl Backend {
         Ok(response.into())
     }
 
-    pub(super) fn sync_collection_inner(
+    pub fn sync_collection_inner(
         &self,
         input: pb::SyncAuth,
     ) -> Result<pb::SyncCollectionResponse> {
